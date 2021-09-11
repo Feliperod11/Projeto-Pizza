@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: linear-gradient(45deg, rgb(241, 131, 6), rgb(245, 236, 157));
+}
+
+header {
+    max-width: 100%;
+    background-image: linear-gradient(45deg, rgb(241, 131, 6), rgb(245, 236, 157));
+}
+.LogoTittle {
+    text-align: center;
+}
+.LogoTittle h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    color: #000000FF;
+    padding: 20px;
+}
+.Banner {
+    height: 900px;
+    padding: 20px;
+    background-image: url('../images/p3.jpg');
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+.Banner_Container {
+    max-width: 600px;
+    background-image: linear-gradient(45deg, rgb(241, 131, 6), rgb(245, 236, 157));
+    float: right;
+    margin-top: 220px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.Banner_Container h2 {
+    font-size: 41px;
+    font-family: 'Pacifico', cursive;
+}
+
+.Banner_Container h4 {
+    font-size: 25px;
+}
+
+.Banner_Container p {
+    font-size: 20px;
+}
+.mb {
+    padding-bottom: 20px;
+}
+input {
+    background-color: #e73641;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.separar {
+    font-family: 'Pacifico', cursive;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: inline;
+}
+input:hover {
+    background-color: rgb(199, 15, 15);
+}
+.card_refri, .card_doces, .card_combo, .card_vegan, .contact {
+    max-width: 100%;
+}
+.Refrigerante_div {
+    max-width: 100%;
+    height: 570px;
+    background-color: #221e1e;
+    margin: auto;
+    text-align: center;
+}
+.Refrigerante_name, .doces_name, .combo_name, .vegan_name {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 41px;
+    text-align: center;
+}
+.Refrigerante_div img, .doces_div img, .combo_div img, .vegan_div img {
+    margin-top: 20px;
+    max-width: 580px;
+    height: 404px;
+}
+.doces_div {
+    max-width: 100%;
+    background-image: linear-gradient(45deg, rgb(241, 131, 6), rgb(245, 236, 157));
+    margin: auto;
+    text-align: center;
+    height: 570px;
+}
+.combo_div {
+    max-width: 100%;
+    height: 570px;
+    background-color: #221e1e;
+    margin: auto;
+    text-align: center;
+}
+.vegan_div {
+    max-width: 100%;
+    background-image: linear-gradient(45deg, rgb(241, 131, 6), rgb(245, 236, 157));
+    margin: auto;
+    text-align: center;
+    height: 570px;
+}
+#pt {
+    padding-top: 20px;
+}
+.contact {
+    max-width: 100%;
+    height: 115px;
+    background-color: #221e1e;
+    margin: auto;
+    text-align: center;
+}
+.contact_div h1 {
+    color: white;
+    text-align: center;
+}
+.contact_div p {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+}
+.FR {
+    color: rgb(255, 217, 5);
+}
+.ico_pizza {
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+    .contact_div p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .Refrigerante_div img, .doces_div img, .combo_div img, .vegan_div img {
+        max-width: 400px;
+        height: 400px;
+    }
+
+    .Refrigerante_name, .doces_name, .combo_name, .vegan_name {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Refrigerante_div img, .doces_div img, .combo_div img, .vegan_div img {
+        max-width: 340px;
+        height: 440px;
+    }
+    input {
+        background-color: #e73641;
+        color: rgb(255, 255, 255);
+        display: block;
+        margin: auto;
+        max-width: 180px;
+    }
+    .separar {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .Banner_Container {
+        max-width: 300px;
+    }
+    .Refrigerante_name, .doces_name, .combo_name, .vegan_name {
+        font-size: 20px;
+    }
+    .contact_div h1 {
+        font-size: 20px;
+    }
+    .LogoTittle h1 {
+        font-size: 50px;
+    }
+    .contact_div h1 {
+        font-size: 17px;
+    }
+    .contact_div p {
+        font-size: 13px;
+    }
+}
